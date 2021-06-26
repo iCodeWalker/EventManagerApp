@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to right bottom, white, rgb(176, 232, 241));
+}
+.eventlist {
+  display: flex;
+  background: linear-gradient(to right bottom, white, rgb(176, 232, 241));
+  padding: 20px;
+}
+
+.eventlist__list {
+  flex: 1;
+  width: 50%;
+  margin-left: 30px;
+}
+.eventlist__button {
+  width: 50%;
+  height: 40px;
+  width: 400px;
+  justify-self: center;
+  margin-bottom: 40px;
+  padding: 50px;
+}
+.eventlist__calender {
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 20px;
+}
